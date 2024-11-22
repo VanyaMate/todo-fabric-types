@@ -1,4 +1,15 @@
 {
+    "name": "@vanyamate/todo-fabric-types",
+    "version": "0.0.2",
+    "author": "VanyaMate",
+    "main": "src/index.d.ts",
+    "types": "src/index.d.ts",
+    "files": [
+        "src/**/*"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
     "dependencies": {
         "@vanyamate/types-kit": "^0.0.15"
     }
