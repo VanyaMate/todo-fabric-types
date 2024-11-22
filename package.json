@@ -1,11 +1,14 @@
 {
     "name": "@vanyamate/todo-fabric-types",
-    "version": "0.0.2",
+    "private": false,
+    "version": "0.0.10",
     "author": "VanyaMate",
-    "main": "src/index.d.ts",
-    "types": "src/index.d.ts",
+    "main": "./dist/src/index.js",
+    "types": "./dist/src/index.d.ts",
+    "type": "module",
     "files": [
-        "src/**/*"
+        "src",
+        "dist"
     ],
     "scripts": {
         "build": "tsc"
